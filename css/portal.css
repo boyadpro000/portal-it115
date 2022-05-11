@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #dfcdcd;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -12,6 +13,13 @@ html {
 ::selection {
     color: #000; 
     background: #ff0;
+}
+
+h1.logo {
+
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 h1 {
@@ -68,7 +76,7 @@ footer {
     }
     
     picture.profile img {
-        width: 50%;
+        width: 30%;
         float: left;
         margin-right: 2em;
     }
